@@ -1,0 +1,21 @@
+{
+    "name": "arikaim/ai-module",
+    "description": "Arikam CMS AI Module",
+    "keywords": ["Module", "Arikaim CMS AI module"],
+    "type": "arikaim-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Konstantin Atanasov",
+        "email": "info@arikaim.com",
+        "homepage": "http://arikaim.com"
+    }],
+    "require": {
+        "arikaim/installer": "*",
+        "archon/dataframe": "*",
+        "frictionlessdata/tableschema": "*",
+        "rubix/ml": "*"
+    },
+    "extra": {
+        "path": "ai"
+    }
+}

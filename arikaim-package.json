@@ -1,0 +1,15 @@
+{
+    "title": "AI packages",
+    "name": "ai",
+    "version": "1.0.0",
+    "package-type": "module",
+    "class": "Ai",
+    "description": "Ai packages",
+    "type": "package",
+    "repository": "https://github.com/arikaim-ai/ai-module.git",
+    "require": {
+        "composer": [            
+        ]
+    },
+    "help": "https://rubixml.com/"      
+}
