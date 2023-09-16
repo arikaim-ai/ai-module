@@ -13,7 +13,8 @@
         "arikaim/installer": "*",
         "archon/dataframe": "*",
         "frictionlessdata/tableschema": "*",
-        "rubix/ml": "*"
+        "rubix/ml": "*",
+        "openai-php/client": "*"
     },
     "extra": {
         "path": "ai"
