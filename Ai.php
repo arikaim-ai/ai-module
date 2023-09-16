@@ -23,5 +23,6 @@ class Ai extends Module
      */
     public function install()
     {
+        $this->installDriver('Arikaim\\Modules\\Ai\\Drivers\\OpeanAiDriver');
     }
 }

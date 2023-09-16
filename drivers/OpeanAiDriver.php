@@ -7,7 +7,7 @@
  * @license     http://www.arikaim.com/license
  * 
 */
-namespace Arikaim\Modules\Mailers\Drivers;
+namespace Arikaim\Modules\Ai\Drivers;
 
 use Arikaim\Core\Driver\Traits\Driver;
 use Arikaim\Core\Interfaces\Driver\DriverInterface;
@@ -32,7 +32,7 @@ class OpeanAiDriver implements DriverInterface
      */
     public function __construct()
     {      
-        $this->setDriverParams('openai','ai','OpenAi driver','OpenAi client driver');        
+        $this->setDriverParams('openai','ai','OpenAi API Client','OpenAi client driver');        
     }
 
     /**
